@@ -2,9 +2,7 @@
 Los sets en Python son una estructura de datos usada para almacenar elementos de una 
 manera similar a las listas(arrays), pero con ciertas diferencias.
 
-Crear un conjunto de Python
-
-Los elementos de un set son único, lo que significa que no puede haber elementos duplicados.
+Los elementos de un set son únicos, lo que significa que no puede haber elementos duplicados.
 
 Los set son desordenados, lo que significa que no mantienen el orden de cuando son declarados.
 Sus elementos deben ser inmutables.
