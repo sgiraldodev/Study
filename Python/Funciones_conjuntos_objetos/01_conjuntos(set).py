@@ -7,10 +7,12 @@ Los elementos de un set son únicos, lo que significa que no puede haber element
 Los set son desordenados, lo que significa que no mantienen el orden de cuando son declarados.
 Sus elementos deben ser inmutables.
 Para crear un set en Python se puede hacer con set() y pasando como entrada 
-cualquier tipo iterable, como puede ser una lista. 
+cualquier tipo iterable, como puede ser una lista o tambien agregando los elementos directamente entre llaves {}.
 Se puede ver como a pesar de pasar elementos duplicados como dos 8 y 
 en un orden determinado, al imprimir el set no conserva ese orden
 y los duplicados se han eliminado.
+
+
 
 '''
 
@@ -57,6 +59,7 @@ print('\n')
 print('Convertir un conjunto a una lista')
 print('*'*50)
 
+set_numbers = set([1, 1, 2, 2, 2, 2, 3, 4, 5, 6, 7, 8, 9, 10])  
 lista_numbers = list(set_numbers)   
 print(lista_numbers)
 print(type(lista_numbers))

@@ -1,0 +1,16 @@
+Dinámica del Juego
+
+El programa comienza mostrando una secuencia corta, por ejemplo, un número de 3 dígitos.
+La secuencia se muestra en pantalla por unos segundos y luego desaparece.
+Respuesta del Jugador:
+
+El jugador debe ingresar la secuencia exacta que vio.
+Si el jugador acierta, pasa a la siguiente ronda.
+Rondas Progresivas:
+
+En cada ronda, la secuencia crece en longitud (por ejemplo, se añade un dígito más).
+La dificultad aumenta a medida que la secuencia se hace más larga.
+Condición de Fin del Juego:
+
+Si el jugador se equivoca al repetir la secuencia, el juego termina.
+Opcionalmente, el programa puede mostrar el nivel alcanzado y la secuencia correcta.

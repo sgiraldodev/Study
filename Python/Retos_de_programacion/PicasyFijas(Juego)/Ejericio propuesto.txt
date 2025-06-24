@@ -1,0 +1,17 @@
+**********************************************
+PASOS PARA REALIZAR EL JUEGO DE PICAS Y FIJAS:
+**********************************************
+
+1.	Para iniciar el juego el programa debe generar un número CLAVE de cuatro cifras aleatoriamente sin repetir decimales. 
+2.	El programa debe solicitar y capturar el número que el jugador ingrese (intento de adivinar).
+3.	Para el valor que ingresa el jugador se debe indicar cuántos dígitos son picas y cuántos dígitos son fijas (Nota: un dígito es pica cuando aparece en el número CLAVE generado, pero en una posición diferente a la del número del intento, y un dígito es una fija cuando está en el número CLAVE en la misma posición del número del intento). 
+4.	Si el número del intento es igual al número CLAVE, el jugador gana. Si no es igual puede intentar nuevamente teniendo en cuenta las picas y fijas reportadas por el programa.
+5.	Adicionalmente debe llevar un recuento de cuantos intentos ha realizado el jugador, hasta un máximo de doce intentos. 
+6.	En cada intento debe mostrar: número de intentos y el número de cifras de picas y fijas.
+
+Los mensajes de salida mostrarán lo siguiente al terminar los intentos:
+•	Si logra tener las 4 fijas con menos de dos intentos: «Excelente, eres un maestro estas fuera del alcance de los demás».
+•	Si logra tener las 4 fijas con menos de cuatro intentos: «Muy bueno, puedes ser un gran competidor».
+•	Si lo logra con menos de ocho intentos: «Bien, estas progresando debes buscar tus límites».
+•	Si lo logra con menos de diez intentos: «Regular, Aún es largo el camino por recorrer».
+•	Si no lo consigue en los doce intentos: «Mal, este juego no es para ti».
