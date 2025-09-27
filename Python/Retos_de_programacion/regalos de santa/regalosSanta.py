@@ -18,12 +18,6 @@ console.log(preparedGifts3) // []
 '''
 
 def prepareGifts(gifts):
-    gift_processed = sorted(set(gifts))    
+    gift_processed = sorted(set(gifts))
+    print(f"Lista de regalos:  {gift_processed}")
     return gift_processed
-
-#gifts1 = [6, 5, 5, 5, 5]
-gifts1 = [3, 1, 2, 3, 4, 2, 5]
-#gifts1 = []
-preparedGifts1 =  prepareGifts(gifts1)
-
-print(f"Lista de regalos:  {preparedGifts1}")
