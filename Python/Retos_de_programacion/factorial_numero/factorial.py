@@ -23,8 +23,7 @@ Calcula y devuelve la suma de 1 a n usando un for (sin sum).
 Factorial (iterativo)
 Repite el ejercicio del factorial con for (si n=0, devuelve 1).
 
-Contar pares en una lista
-Dada una lista de enteros, devuelve cuántos son pares.
+
 
 Contar vocales en un texto
 Dado un string, cuenta cuántas vocales (a,e,i,o,u, mayúsculas/minúsculas) contiene.
